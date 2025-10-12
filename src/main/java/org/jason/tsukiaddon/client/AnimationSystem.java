@@ -16,7 +16,7 @@ public class AnimationSystem {
 
     public static void loadAnimation(String filepath) {
         try {
-            Identifier id = new Identifier("everflame", "animations/" + filepath + ".json");
+            Identifier id = new Identifier("tsukiaddon", "animations/" + filepath + ".json");
             Optional<Resource> resourceOpt = MinecraftClient.getInstance().getResourceManager().getResource(id);
 
             if (resourceOpt.isEmpty()) {

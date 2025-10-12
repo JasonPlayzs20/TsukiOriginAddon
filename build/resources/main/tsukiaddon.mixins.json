@@ -4,8 +4,12 @@
   "package": "org.jason.tsukiaddon.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "MinecraftClientMixin"
   ],
   "client": [
+    "PlayerEntityModelMixin",
+    "PlayerItemModelMixin",
+    "MinecraftClientMixin"
   ],
   "injectors": {
     "defaultRequire": 1
