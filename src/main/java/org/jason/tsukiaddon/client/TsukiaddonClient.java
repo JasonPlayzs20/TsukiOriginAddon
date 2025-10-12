@@ -5,6 +5,7 @@ import io.github.apace100.origins.origin.Origin;
 import io.github.apace100.origins.origin.OriginLayer;
 import io.github.apace100.origins.origin.OriginLayers;
 import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientLifecycleEvents;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.mixin.client.particle.ParticleManagerAccessor;
 import net.minecraft.client.MinecraftClient;
@@ -39,9 +40,6 @@ import java.util.Queue;
 
 public class TsukiaddonClient implements ClientModInitializer {
 
-
-    private static final double PARTICLE_REMOVE_RADIUS = 32.0;
-    private static final double RADIUS_SQUARED = PARTICLE_REMOVE_RADIUS * PARTICLE_REMOVE_RADIUS;
     private static ComponentKey<OriginComponent> ORIGIN_COMPONENT;
 
     // Check if a player has the gloomer origin
@@ -77,6 +75,9 @@ public class TsukiaddonClient implements ClientModInitializer {
                 new Identifier("origins", "origin"),
                 OriginComponent.class
         );
+        ClientLifecycleEvents.CLIENT_STARTED.register(client -> {
+            AnimationRegistry.registerAll();
+        });
 
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             if (client.world == null) return;

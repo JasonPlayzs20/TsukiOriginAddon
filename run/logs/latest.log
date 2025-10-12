@@ -1,5 +1,5 @@
-[22:26:24] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.17.2
-[22:26:25] [main/INFO] (FabricLoader) Loading 69 mods:
+[13:04:44] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.17.2
+[13:04:45] [main/INFO] (FabricLoader) Loading 69 mods:
 	- cardinal-components-base 5.2.2
 	- cardinal-components-entity 5.2.2
 	- fabric-api 0.92.6+1.20.1
@@ -69,14 +69,14 @@
 	   |    \-- playerabilitylib 1.8.0
 	   \-- reach-entity-attributes 2.4.0
 	- tsukiaddon 1.0-SNAPSHOT
-[22:26:28] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/jason/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/3e535042688d1265447e52ad86950b7d9678a5fa/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[22:26:28] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[22:26:28] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[22:26:28] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[22:26:28] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[22:26:32] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 80 milliseconds
-[22:26:34] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22:26:34] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+[13:04:49] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/jason/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/3e535042688d1265447e52ad86950b7d9678a5fa/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[13:04:49] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[13:04:49] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[13:04:49] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[13:04:49] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[13:04:54] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 105 milliseconds
+[13:04:56] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:04:56] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-4.0.43.jar:?]
@@ -94,38 +94,40 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-4.0.43.jar:?]
 	... 9 more
-[22:26:34] [Render thread/INFO] (Minecraft) Setting user: Player572
-[22:26:34] [Render thread/INFO] (Apoli) Apoli 2.9.0 has initialized. Ready to power up your game!
-[22:26:34] [Render thread/INFO] (Origins) Origins 1.10.0 is initializing. Have fun!
-[22:26:35] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[22:26:35] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.2-snapshot
-[22:26:36] [Render thread/INFO] (Minecraft) [STDERR]: [LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
-[22:26:38] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-data-generation-api-v1, fabric-command-api-v2, fabric-data-attachment-api-v1, fabric-lifecycle-events-v1, fabric-block-api-v1, fabric-commands-v0, fabric-api, fabric-mining-level-api-v1, fabric-command-api-v1, tsukiaddon, fabric-resource-loader-v0, fabric-rendering-v1, fabric-client-tags-api-v1, fabric-item-group-api-v1, playerabilitylib, fabric-blockrenderlayer-v1, fabric-model-loading-api-v1, fabric-sound-api-v1, fabric-rendering-fluids-v1, fabric-content-registries-v0, fabric-loot-api-v2, fabric-events-lifecycle-v0, fabric-particles-v1, fabric-game-rule-api-v1, fabric-transitive-access-wideners-v1, fabric-renderer-api-v1, fabric-item-api-v1, fabric-renderer-registries-v1, fabric-screen-handler-api-v1, fabric-message-api-v1, fabric-object-builder-api-v1, fabric-registry-sync-v0, fabric-api-base, cardinal-components-entity, calio, fabric-transfer-api-v1, fabricloader, fabric-events-interaction-v0, fabric-containers-v0, fabric-gametest-api-v1, fabric-models-v0, fabric-recipe-api-v1, apoli, fabric-screen-api-v1, fabric-resource-conditions-api-v1, cardinal-components-base, fabric-api-lookup-api-v1, fabric-block-view-api-v2, fabric-loot-tables-v1, cloth-config, fabric-biome-api-v1, fabric-keybindings-v0, fabric-rendering-v0, fabric-networking-api-v1, reach-entity-attributes, fabric-key-binding-api-v1, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-entity-events-v1, fabric-networking-v0, origins, fabric-rendering-data-attachment-v1, additionalentityattributes, fabric-renderer-indigo, fabric-dimensions-v1)
-[22:26:38] [Worker-Main-7/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
-[22:26:38] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: FabricMC
-[22:26:39] [Worker-Main-5/WARN] (Minecraft) Unable to load model: 'tsukiaddon:adamysticus_sword#inventory' referenced from: tsukiaddon:adamysticus_sword#inventory: java.io.FileNotFoundException: tsukiaddon:models/item/adamysticus_sword.json
-[22:26:39] [Worker-Main-5/WARN] (Minecraft) Unable to load model: 'tsukiaddon:netherheart_catalyst#inventory' referenced from: tsukiaddon:netherheart_catalyst#inventory: java.io.FileNotFoundException: tsukiaddon:models/item/netherheart_catalyst.json
-[22:26:39] [Worker-Main-5/WARN] (Minecraft) Unable to load model: 'tsukiaddon:drevenavatra_sword#inventory' referenced from: tsukiaddon:drevenavatra_sword#inventory: java.io.FileNotFoundException: tsukiaddon:models/item/drevenavatra_sword.json
-[22:26:39] [Worker-Main-5/WARN] (Minecraft) Unable to load model: 'tsukiaddon:crystal_of_ascension#inventory' referenced from: tsukiaddon:crystal_of_ascension#inventory: java.io.FileNotFoundException: tsukiaddon:models/item/crystal_of_ascension.json
-[22:26:39] [Worker-Main-5/WARN] (Minecraft) Unable to load model: 'tsukiaddon:core_of_iron_flame#inventory' referenced from: tsukiaddon:core_of_iron_flame#inventory: java.io.FileNotFoundException: tsukiaddon:models/item/core_of_iron_flame.json
-[22:26:39] [Worker-Main-5/WARN] (Minecraft) Unable to load model: 'tsukiaddon:heart_of_earth#inventory' referenced from: tsukiaddon:heart_of_earth#inventory: java.io.FileNotFoundException: tsukiaddon:models/item/heart_of_earth.json
-[22:26:39] [Worker-Main-5/WARN] (Minecraft) Unable to load model: 'tsukiaddon:inferuferreus_sword#inventory' referenced from: tsukiaddon:inferuferreus_sword#inventory: java.io.FileNotFoundException: tsukiaddon:models/item/inferuferreus_sword.json
-[22:26:39] [Worker-Main-5/WARN] (Minecraft) Unable to load model: 'tsukiaddon:prokletikamen_sword#inventory' referenced from: tsukiaddon:prokletikamen_sword#inventory: java.io.FileNotFoundException: tsukiaddon:models/item/prokletikamen_sword.json
-[22:26:39] [Worker-Main-5/WARN] (Minecraft) Unable to load model: 'tsukiaddon:moartelafoc_sword#inventory' referenced from: tsukiaddon:moartelafoc_sword#inventory: java.io.FileNotFoundException: tsukiaddon:models/item/moartelafoc_sword.json
-[22:26:39] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[22:26:39] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[22:26:39] [Render thread/INFO] (Minecraft) OpenAL initialized on device Jason’s AirPods
-[22:26:39] [Render thread/INFO] (Minecraft) Sound engine started
-[22:26:40] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[22:26:40] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[22:26:40] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[22:26:40] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[22:26:40] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[22:26:40] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[22:26:40] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[22:26:40] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[22:26:40] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[22:26:40] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[22:26:40] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[22:26:40] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[22:26:40] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[13:04:56] [Render thread/INFO] (Minecraft) Setting user: Player261
+[13:04:56] [Render thread/INFO] (Origins) Origins 1.10.0 is initializing. Have fun!
+[13:04:56] [Render thread/INFO] (Apoli) Apoli 2.9.0 has initialized. Ready to power up your game!
+[13:04:57] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[13:04:57] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.2-snapshot
+[13:04:57] [Render thread/INFO] (Minecraft) [STDERR]: [LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
+[13:04:59] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabricloader, calio, fabric-resource-conditions-api-v1, fabric-transitive-access-wideners-v1, fabric-loot-tables-v1, fabric-events-lifecycle-v0, fabric-loot-api-v2, fabric-item-group-api-v1, fabric-commands-v0, fabric-dimensions-v1, fabric-message-api-v1, cloth-config, fabric-data-attachment-api-v1, fabric-screen-api-v1, fabric-entity-events-v1, fabric-command-api-v1, fabric-models-v0, fabric-block-view-api-v2, fabric-key-binding-api-v1, fabric-object-builder-api-v1, fabric-renderer-registries-v1, fabric-model-loading-api-v1, fabric-blockrenderlayer-v1, playerabilitylib, cardinal-components-entity, fabric-gametest-api-v1, fabric-client-tags-api-v1, fabric-transfer-api-v1, fabric-block-api-v1, reach-entity-attributes, fabric-networking-v0, additionalentityattributes, fabric-api-lookup-api-v1, fabric-lifecycle-events-v1, cardinal-components-base, fabric-data-generation-api-v1, fabric-item-api-v1, fabric-resource-loader-v0, fabric-api-base, fabric-rendering-v0, fabric-crash-report-info-v1, fabric-rendering-v1, fabric-networking-api-v1, fabric-recipe-api-v1, fabric-particles-v1, fabric-screen-handler-api-v1, fabric-api, fabric-sound-api-v1, fabric-rendering-fluids-v1, fabric-registry-sync-v0, fabric-game-rule-api-v1, fabric-renderer-indigo, fabric-rendering-data-attachment-v1, fabric-mining-level-api-v1, origins, fabric-containers-v0, fabric-command-api-v2, fabric-keybindings-v0, fabric-events-interaction-v0, tsukiaddon, apoli, fabric-biome-api-v1, fabric-content-registries-v0, fabric-renderer-api-v1, fabric-convention-tags-v1)
+[13:04:59] [Render thread/INFO] (Minecraft) [STDERR]: Animation file not found: test.json
+[13:04:59] [Worker-Main-3/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
+[13:05:00] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: FabricMC
+[13:05:00] [Worker-Main-4/WARN] (Minecraft) Unable to load model: 'tsukiaddon:adamysticus_sword#inventory' referenced from: tsukiaddon:adamysticus_sword#inventory: java.io.FileNotFoundException: tsukiaddon:models/item/adamysticus_sword.json
+[13:05:00] [Worker-Main-4/WARN] (Minecraft) Unable to load model: 'tsukiaddon:netherheart_catalyst#inventory' referenced from: tsukiaddon:netherheart_catalyst#inventory: java.io.FileNotFoundException: tsukiaddon:models/item/netherheart_catalyst.json
+[13:05:00] [Worker-Main-4/WARN] (Minecraft) Unable to load model: 'tsukiaddon:drevenavatra_sword#inventory' referenced from: tsukiaddon:drevenavatra_sword#inventory: java.io.FileNotFoundException: tsukiaddon:models/item/drevenavatra_sword.json
+[13:05:00] [Worker-Main-4/WARN] (Minecraft) Unable to load model: 'tsukiaddon:crystal_of_ascension#inventory' referenced from: tsukiaddon:crystal_of_ascension#inventory: java.io.FileNotFoundException: tsukiaddon:models/item/crystal_of_ascension.json
+[13:05:00] [Worker-Main-4/WARN] (Minecraft) Unable to load model: 'tsukiaddon:core_of_iron_flame#inventory' referenced from: tsukiaddon:core_of_iron_flame#inventory: java.io.FileNotFoundException: tsukiaddon:models/item/core_of_iron_flame.json
+[13:05:00] [Worker-Main-4/WARN] (Minecraft) Unable to load model: 'tsukiaddon:heart_of_earth#inventory' referenced from: tsukiaddon:heart_of_earth#inventory: java.io.FileNotFoundException: tsukiaddon:models/item/heart_of_earth.json
+[13:05:00] [Worker-Main-4/WARN] (Minecraft) Unable to load model: 'tsukiaddon:inferuferreus_sword#inventory' referenced from: tsukiaddon:inferuferreus_sword#inventory: java.io.FileNotFoundException: tsukiaddon:models/item/inferuferreus_sword.json
+[13:05:00] [Worker-Main-4/WARN] (Minecraft) Unable to load model: 'tsukiaddon:prokletikamen_sword#inventory' referenced from: tsukiaddon:prokletikamen_sword#inventory: java.io.FileNotFoundException: tsukiaddon:models/item/prokletikamen_sword.json
+[13:05:00] [Worker-Main-4/WARN] (Minecraft) Unable to load model: 'tsukiaddon:moartelafoc_sword#inventory' referenced from: tsukiaddon:moartelafoc_sword#inventory: java.io.FileNotFoundException: tsukiaddon:models/item/moartelafoc_sword.json
+[13:05:01] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[13:05:01] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[13:05:01] [Render thread/INFO] (Minecraft) OpenAL initialized on device Jason’s AirPods
+[13:05:01] [Render thread/INFO] (Minecraft) Sound engine started
+[13:05:01] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[13:05:01] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[13:05:01] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[13:05:01] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[13:05:01] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[13:05:01] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[13:05:01] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[13:05:01] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[13:05:01] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[13:05:01] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[13:05:01] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[13:05:01] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[13:05:01] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[13:05:08] [Render thread/INFO] (Minecraft) Stopping!
