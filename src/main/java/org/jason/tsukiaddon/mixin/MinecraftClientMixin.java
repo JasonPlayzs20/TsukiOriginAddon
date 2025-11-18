@@ -22,7 +22,7 @@ public class MinecraftClientMixin {
     private void onDoAttack(CallbackInfoReturnable<Boolean> cir) {
         MinecraftClient client = (MinecraftClient) (Object) this;
         ClientPlayerEntity player = client.player;
-        player.sendMessage(Text.literal("hello"));
+//        player.sendMessage(Text.literal("hello"));
 
         if (player != null) {
             ItemStack weapon = player.getMainHandStack();

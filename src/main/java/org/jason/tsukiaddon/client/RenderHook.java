@@ -5,14 +5,17 @@ import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class RenderHook {
-    private static final Map<UUID, Map<String,float[]>> POSES = new ConcurrentHashMap<>();
+    private static final Map<UUID, Map<String, AnimationSystem.BonePose>> POSES = new ConcurrentHashMap<>();
 
-    public static void setModelPose(UUID player, Map<String,float[]> transforms) {
-        if (transforms == null || transforms.isEmpty()) POSES.remove(player);
-        else POSES.put(player, transforms);
+    public static void setModelPose(UUID player, Map<String, AnimationSystem.BonePose> transforms) {
+        if (transforms == null || transforms.isEmpty()) {
+            POSES.remove(player);
+        } else {
+            POSES.put(player, transforms);
+        }
     }
 
-    public static Map<String,float[]> getPose(UUID player) {
+    public static Map<String, AnimationSystem.BonePose> getPose(UUID player) {
         return POSES.get(player);
     }
 }
